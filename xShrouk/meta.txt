@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- for internet explorer -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- for mobile responsive-->
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="Doctor-x-login-firstpage.css"/>
+		<title>Doctor-X login Page</title>
+	
+	</head>
+	<body>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+		<script src="js/jquery-3.3.1.js" ></script>
+		<script src="js/bootstrap.min.js"> </script>
+	</body>
+	
+	
+	
+	
+</html>

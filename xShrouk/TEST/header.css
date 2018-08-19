@@ -1,0 +1,159 @@
+.navbar-inverse .navbar-nav > li > a {
+    color: azure;
+	font-size: 17px;
+	text-shadow: 0px 0px 1px #000;
+  height:450px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #70BEDE;
+	
+}
+
+
+.navbar-inverse {
+    background-color: #70BEDE;
+    border-color: #70BEDE;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+	font-family: Brush Script MT;
+	font-size: 35px;
+	text-shadow: 1px 1px 2px #000;
+	margin-left: 4px;
+}
+.X{
+	color: #af1d3e;
+	font-family: Edwardian Script ITC;
+	font-size: 35px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+	margin-right: 15px;
+}
+@media (min-width: 768px)
+.navbar-form .form-control {
+    display: inline-block;
+    vertical-align: middle;
+	width:100px;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #31708f;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #31708f;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #31708f;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #31708f;
+}
+.navbar-brand{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 1px;
+}
+
+.navbar{
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+ 	color: azure;
+    background-color: #31708f;
+}
+
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: azure;
+    background-color: #31708f;
+	}
+}
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+		color: black;
+		font-size: 17px;
+	}
+	
+}
+@media (min-width: 768px){
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 5px;
+}
+}
+
+/**************************** Steaky header************************/
+#steaky {
+  overflow: hidden;
+  background-color: white;
+}
+
+#steaky a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 4px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#steaky a:hover {
+  background-color: #70bede;
+  color: white;
+}
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* Page content */
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+		border-radius: 0px;
+
+}
+.jumbotron{
+	background-color: ghostwhite;
+}
+
+
+.btn-group > .btn + .dropdown-toggle{
+	height: 34px;
+}
+
+@media (max-width: 803px){
+	#steaky a{
+		font-size: 13px;
+	}
+	
+}

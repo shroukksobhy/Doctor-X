@@ -1,0 +1,160 @@
+
+.firstPageImg{
+	background-image: url(medical.jpg);
+	background-repeat: no-repeat;
+	background-origin: cover;
+	height:700px;
+	margin-top: 2px;
+}
+.space{
+	height: 200px;
+}
+form{
+	padding-left: 150px;
+	padding-top: 40px;
+	padding-right: 200px;
+}
+.loginForm{
+	padding-left: 320px;
+	padding-top: 100px;
+	padding-right: 320px;
+}
+.loginSignup{
+	padding-top: 100px;
+}
+h6.opinion{
+		text-align: left;
+		color: red;
+		font-size: 23px;
+		padding-left: -5px;
+}
+
+
+
+.container{
+	height: 500px;
+}
+.container-signUP{
+	height: 1000px;
+}
+.whoWeAre{
+	height: 50px;
+	background-color: red;
+
+}
+.ourServices{
+		
+	background-color: blue;
+
+}
+.statistics{
+	background-color: azure;
+}
+.firstPage{
+	height: 100px;
+
+}
+.asDoctor{
+
+text-align: center;
+}
+
+.asPatient{
+
+text-align: center;
+}
+
+.container-home{
+	height: 100%;
+	width: 100%;
+}
+
+	/**********************************************/
+
+
+
+
+/*------------------------------- Content -----------------------------*/
+
+
+#intro {
+    font-family: cursive;
+    color: black;
+    font-size: 30px;
+}
+#myCarousel p{
+    color:#15294b;
+}
+#myCarousel h1{
+    font-family: cursive;
+}
+#searchBar select{
+    width:200px;
+    height:50px;
+    font-family: cursive;
+    font-size: 15px;
+    border-color: #6d8ec4;
+    color:#2a426c;
+}
+#searchBar #asked{
+    width:250px;
+    height:50px;
+    font-family: cursive;
+    font-size: 16px;
+    border-color: #6d8ec4;
+    color:#2a426c;
+}
+#searchBar #go_search{
+    width:100px;
+    height:50px;
+    font-family: cursive;
+    font-size: 17px;
+    border-color: #6d8ec4;
+    color:white;
+    background-color: #6d8ec4
+}
+#services button{
+    border-radius: 50px;
+    padding:50px;
+}
+.row.y{
+    margin-right:0;
+    text-align: center
+}
+.container.x{
+    margin:0;
+    padding-left: 49px;
+    font-family:cursive
+   
+}
+
+@media (max-width:803px){
+     #myCarousel p{
+		font-size: 2vw;
+         margin-bottom: -25px
+	}
+    #myCarousel h1{
+		font-size: 3vw;
+	}
+    .container.x{
+        padding-left: 10px
+    }
+.container.x p{
+   
+    font-size: 15px;
+}
+    .container.x h3{
+        font-size: 18px;
+    }
+    .container.x h2{
+        font-size: 22px;
+    }
+    .container.x a{
+        font-size: 13px;
+    }
+
+}
+/************************/
+
+/**************************** Steaky header************************/
+
